@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+hr {
+    border-color: brown;
+    box-shadow: none;
+    border-style: solid;
+}
+
+form {             
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+legend {
+    color: brown;
+    font-weight: bold;
+    text-shadow: 1px 1px lightgray;
+}
+
+label {
+    padding: 3px;
+}
+
+label:after {
+    content: ":";
+}
+
+select, input, button {
+    padding: 3px;
+    border: 1px solid orange;
+    box-shadow: none;
+}
+
+select,input.small {
+    width: 170px;
+    padding: 1px;
+}
+
+select option:hover, select option:checked {
+    background-color: brown;
+    color: white;
+}
+
+input, button {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    box-shadow: 1px 1px black;
+}
+
+input.plain {
+    background-color: white;         
+    color: black;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+h3 {
+    background-color: orange;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px gray;
+    margin-bottom: 3px;
+}
+
+th {
+    color: white;
+    background-color: orange;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+    vertical-align: text-top;
+    margin: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#library-settings-popup, #move-items-popup
+{
+    width: 600px;
+    height: 450px;
+    background: #FFF9B6;
+    border: orange solid 2px;
+    position: absolute;
+    margin-left: -275px;
+    margin-top: -300px;
+    left: 50%;
+    top: 50%;
+    z-index: 20;
+    display: none;
+    padding: 10px;
+}
+
+#screen
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #000;
+}
+
+#container {
+    width: 1000px;
+    height: 800px;
+    border: 2px solid orange;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#logo-bar {
+    padding: 10px;
+    width: 980px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background: orange url(../images/orange-gradient.png) repeat;     
+}
+
+#logo-bar a, #logo-bar a:visited {
+    color: white;
+}
+
+#sidebar {
+    float: left;
+    width: 198px;
+    border-right: 2px solid orange;
+    padding: 0px;
+    height: 705px;
+}
+
+#sidebar form, #sidebar a, #sidebar a:hover, #sidebar a:visited {
+    color: brown;
+}
+
+#content {
+    float: right;
+    width: 800px;
+    height: 689px;
+}
+
+#sidebar, #references-controls {
+    background-color: #FFF9B6;
+}
+
+#references-controls {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding: 2px;
+    height: 25px;
+    text-align: right;
+}
+
+#references-metadata input, #references-metadata textarea, #references-metadata select, #box input[type=text] {
+    background-color: #FFF9B6;
+    border-color: orange;
+    width: 550px;
+    color: black;
+    font-weight: normal;
+    box-shadow: none;
+    background-color: lightgray;
+}
+
+#references-summary {
+    height: 328px;
+    overflow: auto;
+}
+
+#references-summary, #references-controls, #references-metadata {
+    width: 784px;
+    padding: 8px;
+}
+
+#references-summary {
+    padding: 3px;
+}
+
+#references-summary th a, #references-summary th a:visited {
+    color: white;
+}
+
+#view {
+    width: 700px;
+    height: 312px;
+    float: left;
+    overflow: auto;
+}
+
+#save-changes {
+    width: 66px;
+    float: right;
+    text-align: center;
+}
+
+#footer {
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    height: 15px;
+    color: white;
+    background-color: orange;
+}
+
+#record-controls-1 {
+    display: block;
+}
+
+#record-controls-2 {
+    display: none;
+}
+
+.logo {
+    text-shadow: 2px 2px grey;
+    font-size: 48px;
+    font-family: script;
+}
+
+.float-right {
+    float: right;
+    margin-top: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+button.medium {
+    width: 50px;
+}
+
+select[disabled='disabled'], input[disabled='disabled'] {
+    background-color: lightgrey;
+    padding: 3px;
+    border: 1px solid orange;
+    box-shadow: none;
+    color: grey;
+}
+
+a.ref-link {
+    text-decoration: none;
+}
+
+.even {
+    background-color: grey;
+    color: white;
+}
+
+.odd {
+    background-color: white;
+    color: grey;
+}
+
+.even a.ref-link {
+    color: white;
+}
+
+.odd a.ref-link {
+    color: grey;
+}
+
+.selected, .selected a.ref-link {
+    background-color: #FFF9B6;
+    color: brown;
+}

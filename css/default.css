@@ -1,0 +1,199 @@
+* {
+    margin:  0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+input {
+    padding: 2px;
+}
+
+h3 {
+    color: white;
+    background-color: orange; 
+    padding: 3px;
+    text-shadow: 1px 1px grey;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#main {
+    width: 1280px;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: white;
+    border: 2px solid orange;
+    min-height: 600px;
+    position: relative;
+}
+
+a.plain {
+    text-decoration: none;
+}
+
+#header {
+    height: 30px;
+    padding: 10px 10px 10px 30px;
+    border-style: none; 
+    background: orange url(../images/orange-gradient.png) repeat; 
+    font-weight: bold; 
+    font-size: x-large;
+    color: white;
+}
+
+#library_pane {
+    width: 20%; 
+    float: left;
+    background-color: #fff9b6;
+    min-height: 670px;
+    border-right: orange;
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-width: 2px;
+    padding: 0px;
+}
+
+#references_view {
+    width: 79%;
+    float: left;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#metadata_pane {
+    width: 79%;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 2px orange;
+    overflow: auto;
+    max-height: 300px;
+}
+
+#metadata_pane table {
+    margin: 0px;
+    padding: 0px;
+}
+
+#metadata_pane tr {
+    border-width: 0px;
+}
+
+#metadata_pane th {
+    background-color: orange;
+    color: white;
+    margin: 0px;
+    min-width: 200px;
+    vertical-align: text-top;
+}
+
+#metadata_pane th, td {
+    text-align: left;
+    font-size: small;
+    padding: 5px;
+}
+
+#references_view table {
+    width: 900px;
+    text-align: left;
+}
+
+#references_view th {
+    text-align: left;
+    color: orange;
+    font-size: small;
+}
+
+#references_view td {
+    font-size: x-small;
+}
+
+#references_view tr {
+    margin: 0px;
+}
+
+.even {
+    background-color: grey;
+    color: white;
+}
+
+.odd {
+    background-color: white;
+    color: grey;
+}
+
+.even a.plain:visited, .even a.plain {
+    background-color: grey;
+    color: white;
+}
+
+.odd a.plain:visited, .odd a.plain {
+    background-color: white;
+    color: grey;
+}
+
+.odd:hover {
+    border-style: dashed;
+    border-width: 4px;
+    border-color: orange;
+}
+
+#footer {
+    background: orange url(../images/orange-gradient.png) repeat; 
+    padding-top: 10px;
+    height: 20px;
+    font-size: x-small;
+    text-align: center;
+    clear: both;
+    color: seashell;
+    font-weight: bold;
+}
+
+#button ul {
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    min-height: 240px;
+    border: none;
+    font-size: small;
+}
+
+#button li {
+    background-color: #ff9900;
+    margin: 0px;
+    border-bottom: 1px solid lightgrey;
+    padding: 3px;
+}
+
+#button li a {
+    color: white;
+    text-decoration: none;
+}
+
+.delete_library {
+    float:right; 
+    vertical-align: middle;
+}
+
+.delete_library:hover {
+    display: block;
+}
+
+#button li a:hover {
+    color: black;
+}
+
+#share_tools {
+    min-height: 260px;
+}
+
+.selected-library {
+    font-weight: bold;
+}
